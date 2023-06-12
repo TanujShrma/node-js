@@ -1,0 +1,17 @@
+{
+  "name": "nodejs",
+  "version": "9.6.6",
+  "description": "NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Tanuj Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
