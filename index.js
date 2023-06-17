@@ -1,7 +1,7 @@
-const fs = require('fs');
-const path = require('path');
-const dirPath = path.join(__dirname, 'CRUD');
-const file = `${dirPath}/hello.txt`;
+// const fs = require('fs');
+// const path = require('path');
+// const dirPath = path.join(__dirname, 'CRUD');
+// const file = `${dirPath}/hello.txt`;
 
 //Creating a file
 
@@ -30,4 +30,22 @@ const file = `${dirPath}/hello.txt`;
 // Deleting a file
 
 // fs.unlinkSync(`${dirPath}/hey.txt`)
+
+
+// Using Promise to wait for data
+
+// let a = 20;
+// let b = 0;
+
+// let waitingData = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         b = 30
+//         resolve(b)
+//     }, 2000);
+// })
+
+// waitingData.then((data) => {
+//     console.log(a + data);
+// })
+
 
